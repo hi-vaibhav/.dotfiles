@@ -28,7 +28,6 @@
     "editor.accessibilitySupport": "off",
     "git.autofetch": true,
     "editor.lineHeight": 1.2,
-    "workbench.startupEditor": "none",
     "security.workspace.trust.untrustedFiles": "open",
     "editor.mouseWheelZoom": true,
     "editor.fontSize": 16,
@@ -68,7 +67,7 @@
     "symbols.hidesExplorerArrows": true,
     "editor.formatOnSave": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "update.mode": "manual",
+    "update.mode": "default",
     "git.confirmSync": false,
     "liveServer.settings.donotVerifyTags": true,
     "workbench.editor.limit.enabled": true,
@@ -78,7 +77,7 @@
         "asvetliakov.vscode-neovim": 1
     },
     "github.copilot.preferredAccount": "the-vaibhav",
-    "workbench.sideBar.location": "right",
+    "workbench.sideBar.location": "left",
     "workbench.iconTheme": "symbols",
     "terminal.integrated.fontFamily": "JetBRainsMono Nerd Font",
     "vscode-neovim.neovimClean": false,
@@ -96,4 +95,7 @@
     ],
     "workbench.activityBar.orientation": "vertical",
     "workbench.editor.showTabs": "none",
+    "projectManager.git.baseFolders": [
+        "D:\\Programming"
+    ],
 }

@@ -15,9 +15,7 @@ $haskell\
 $python\
 $docker_context\
 $cmd_duration\
-$line_break\
-$shell\
-$os\
+\n$os\
 $username\
 $character
 """
@@ -32,7 +30,7 @@ format = '[[🕥 $time](bold cyan)]($style)'
 
 [cmd_duration]
 min_time = 500
-format = '[ ┇](bold cyan) [$duration](bold cyan)'
+format = '[ ↕](bold cyan) [$duration](bold cyan)'
 
 [username]
 show_always = true
@@ -62,15 +60,16 @@ truncate_to_repo = false
 [git_branch]
 style = 'fg:blue'
 symbol = ' '
-format = '[ ┇](bold blue) [$symbol$branch]($style)'
+format = '[ ↕](bold blue) [$symbol$branch]($style)'
 
 [git_status]
-format = '([\[$all_status$ahead_behind\]]($style))'
+format = '( [\[$all_status$ahead_behind\]]($style))'
+deleted="X"
 
 [character]
 disabled = false
-success_symbol ='[»](bold fg:green)'
-error_symbol = '[»](bold fg:red)'
+success_symbol ='[⇒](bold fg:green)'
+error_symbol = '[⇒](bold fg:red)'
 vimcmd_symbol = '[](bold fg:creen)'
 vimcmd_replace_one_symbol = '[](bold fg:purple)'
 vimcmd_replace_symbol = '[](bold fg:purple)'
@@ -103,47 +102,47 @@ RedHatEnterprise = "󱄛"
 
 [nodejs]
 symbol = ""
-format = '[ ┇](bold green) [$symbol( $version)](bold green)'
+format = '[ ↕](bold green) [$symbol( $version)](bold green)'
 
 [c]
 symbol = " "
 style = "bg:teal"
-format = '[[┇][ $symbol( $version) ](fg:base bg:teal)]($style)'
+format = '[[↕][ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [rust]
 symbol = ""
 style = "bg:teal"
-format = '[[┇][ $symbol( $version) ](fg:base bg:teal)]($style)'
+format = '[[↕][ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [golang]
 symbol = ""
 style = "bg:teal"
-format = '[[┇][ $symbol( $version) ](fg:base bg:teal)]($style)'
+format = '[[↕][ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [php]
 symbol = ""
 style = "bg:teal"
-format = '[[┇][ $symbol( $version) ](fg:base bg:teal)]($style)'
+format = '[[↕][ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [java]
 symbol = " "
 style = "bg:teal"
-format = '[[┇][ $symbol( $version) ](fg:base bg:teal)]($style)'
+format = '[[↕][ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [kotlin]
 symbol = ""
 style = "bg:teal"
-format = '[[┇][ $symbol( $version) ](fg:base bg:teal)]($style)'
+format = '[[↕][ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [haskell]
 symbol = ""
 style = "bg:teal"
-format = '[[┇][ $symbol( $version) ](fg:base bg:teal)]($style)'
+format = '[[↕][ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [python]
 symbol = ""
 style = "bg:teal"
-format = '[[┇][ $symbol( $version) ](fg:base bg:teal)]($style)'
+format = '[[↕][ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [docker_context]
 symbol = ' '

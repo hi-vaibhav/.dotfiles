@@ -1,27 +1,18 @@
 {
-    /*  "apc.electron": {
-        "titleBarStyle": "hidden",
-        "opacity": 0.9,
+    // apc customization
+    "apc.font.family": "JetBrains Mono",
+    "apc.electron": {
+        // "opacity": 0.9
     },
     "apc.menubar.compact": true,
-    "apc.activityBar": {
-        "position": "bottom",
-        "hideSettings": true,
-        "size": 28
-    },
-*/
-    "apc.font.family": "JetBrains Mono",
     "window.menuBarVisibility": "toggle",
-    // "window.titleBarStyle": "custom",
     "workbench.activityBar.location": "bottom",
-    // "workbench.statusBar.visible": false,
     "window.commandCenter": false,
     "window.title": "Patil",
-    // neovim ===>
     "vscode-neovim.compositeKeys": {
         "jj": {
-            "command": "vscode-neovim.escape",
-        },
+            "command": "vscode-neovim.escape"
+        }
     },
     "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
     "html.autoclosingtags": true,
@@ -36,41 +27,30 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.accessibilitySupport": "off",
     "git.autofetch": true,
-    "workbench.layoutControl.enabled": false,
     "editor.lineHeight": 1.2,
-    //////// ======================
-    "workbench.startupEditor": "none",
     "security.workspace.trust.untrustedFiles": "open",
     "editor.mouseWheelZoom": true,
-    // "editor.wordWrap": "on",
     "editor.fontSize": 16,
     "editor.fontLigatures": true,
-    // Status Bar customization --->
     "workbench.colorCustomizations": {
         "statusBar.background": "#8FBCBB",
         "statusBar.noFolderBackground": "#8FBCBB",
         "statusBar.debuggingBackground": "#026362",
         "statusBar.foreground": "#000",
-        "statusBar.debuggingForeground": "#000",
+        "statusBar.debuggingForeground": "#000"
     },
-    // editor
     "editor.lineNumbers": "relative",
     "editor.smoothScrolling": true,
     "editor.stickyScroll.enabled": true,
     "editor.linkedEditing": true,
     "editor.suggest.insertMode": "replace",
-    // vs code settings for activity bar and all
     "workbench.tips.enabled": false,
-    //explorer options
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    // typescript
     "typescript.preferences.importModuleSpecifier": "relative",
     "typescript.updateImportsOnFileMove.enabled": "always",
-    //extension settings ====>
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "extensions.ignoreRecommendations": true,
-    //editor code actions ===>
     "javascript.suggest.autoImports": true,
     "typescript.suggest.autoImports": true,
     "editor.codeActionsOnSave": {
@@ -83,7 +63,6 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "editor.minimap.enabled": false,
-    // use to fold the function and all
     "editor.folding": false,
     "symbols.hidesExplorerArrows": true,
     "editor.formatOnSave": true,
@@ -94,22 +73,23 @@
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.value": 4,
     "workbench.editor.limit.perEditorGroup": true,
-    "github.copilot.editor.enableAutoCompletions": true,
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    "github.copilot.preferredAccount": "the-vaibhav",
-    "workbench.sideBar.location": "right",
+    "workbench.sideBar.location": "left",
     "workbench.iconTheme": "symbols",
     "terminal.integrated.fontFamily": "JetBRainsMono Nerd Font",
-    "workbench.colorTheme": "Catppuccin Frappé",
-    "workbench.editor.showTabs": "none",
+    "vscode-neovim.neovimClean": false,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "plaintext": false,
         "markdown": false,
         "scminput": false
     },
-    "zenMode.centerLayout": false,
-    "zenMode.hideLineNumbers": false
+    "workbench.editor.showTabs": "none",
+    "projectManager.git.baseFolders": [
+        "D:\\Programming"
+    ],
+    "workbench.startupEditor": "none",
 }

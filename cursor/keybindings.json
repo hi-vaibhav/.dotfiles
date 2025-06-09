@@ -49,11 +49,6 @@
         "when": "inQuickOpen"
     },
     {
-        "key": "tab",
-        "command": "selectNextSuggestion",
-        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
-    },
-    {
         "key": "ctrl+k",
         "command": "workbench.action.quickOpenNavigatePrevious",
         "when": "inQuickOpen"
@@ -222,5 +217,55 @@
         "key": "ctrl+w h",
         "command": "-workbench.action.navigateLeft",
         "when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused && !inInteractiveInput && !interactiveEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+oem_2",
+        "command": "inlineChat.start",
+        "when": "editorFocus && inlineChatHasProvider && !editorReadonly"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-inlineChat.start",
+        "when": "editorFocus && inlineChatHasProvider && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+oem_2",
+        "command": "workbench.action.terminal.chat.start",
+        "when": "terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-workbench.action.terminal.chat.start",
+        "when": "terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+m i",
+        "command": "-inlineChat.start",
+        "when": "editorFocus && inlineChatHasProvider && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "composerMode.agent"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "composerMode.chat"
     }
 ]

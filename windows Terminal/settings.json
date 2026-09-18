@@ -1,0 +1,342 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "id": "User.resizePane.F747588A"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.moveFocus.2A0DA8E0"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "size": 0.2,
+                "split": "down",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.94337365"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "id": "User.resizePane.6CD791B"
+        },
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "id": "User.moveFocus.6CD791B"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "id": "User.moveFocus.F747588A"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "id": "User.resizePane.2A0DA8E0"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "id": "User.moveFocus.87C324ED"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "right",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.FEF0D40B"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "id": "User.resizePane.87C324ED"
+        },
+        {
+            "command": "closePane",
+            "id": "User.closePane"
+        },
+        {
+            "command": {
+                "action": "nextTab"
+            },
+            "id": "User.nextTab.0"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{cdaaf064-daf8-4743-a4f6-503e1b0b1025}",
+    "keybindings": [
+        {
+            "id": "User.moveFocus.2A0DA8E0",
+            "keys": "ctrl+h"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+up"
+        },
+        {
+            "id": null,
+            "keys": "alt+right"
+        },
+        {
+            "id": null,
+            "keys": "alt+up"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "id": "User.splitPane.94337365",
+            "keys": "ctrl+shift+u"
+        },
+        {
+            "id": null,
+            "keys": "alt+down"
+        },
+        {
+            "id": null,
+            "keys": "alt+left"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+minus"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+right"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+insert"
+        },
+        {
+            "id": null,
+            "keys": "enter"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+plus"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+tab"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+down"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+left"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+n"
+        },
+        {
+            "id": "User.resizePane.6CD791B",
+            "keys": "ctrl+shift+k"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.moveFocus.6CD791B",
+            "keys": "ctrl+k"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.resizePane.2A0DA8E0",
+            "keys": "ctrl+shift+h"
+        },
+        {
+            "id": "User.moveFocus.87C324ED",
+            "keys": "ctrl+l"
+        },
+        {
+            "id": "User.splitPane.FEF0D40B",
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "id": "User.moveFocus.F747588A",
+            "keys": "ctrl+j"
+        },
+        {
+            "id": "User.resizePane.87C324ED",
+            "keys": "ctrl+shift+l"
+        },
+        {
+            "id": "User.closePane",
+            "keys": "ctrl+q"
+        },
+        {
+            "id": "User.resizePane.F747588A",
+            "keys": "ctrl+shift+j"
+        },
+        {
+            "id": "User.nextTab.0",
+            "keys": "ctrl+p"
+        }
+    ],
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Catppuccin Frappe",
+            "cursorShape": "bar",
+            "font": {
+                "size": 12,
+                "weight": "normal"
+            },
+            "padding": "8",
+            "scrollbarState": "hidden",
+            "startingDirectory": "./"
+        },
+        "list": [
+            {
+                "bellStyle": "none",
+                "colorScheme": "Catppuccin Frappe",
+                "commandline": "C:\\Program Files\\Git\\usr\\bin\\zsh.exe -i",
+                "elevate": false,
+                "font": {
+                    "face": "Cascadia Mono",
+                    "size": 12,
+                    "weight": "normal"
+                },
+                "guid": "{cdaaf064-daf8-4743-a4f6-503e1b0b1025}",
+                "hidden": false,
+                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Zsh",
+                "opacity": 100,
+                "padding": "8",
+                "scrollbarState": "hidden",
+                "startingDirectory": "D:\\Programming",
+                "useAcrylic": false
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": {
+                    "face": "JetBrainsMono Nerd Font Mono"
+                },
+                "guid": "{e0d135fc-27a3-4d51-b6ee-6c055520e486}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Windows PowerShell",
+                "snapOnInput": true,
+                "useAcrylic": false
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#303446",
+            "black": "#51576D",
+            "blue": "#8CAAEE",
+            "brightBlack": "#626880",
+            "brightBlue": "#8CAAEE",
+            "brightCyan": "#81C8BE",
+            "brightGreen": "#A6D189",
+            "brightPurple": "#F4B8E4",
+            "brightRed": "#E78284",
+            "brightWhite": "#A5ADCE",
+            "brightYellow": "#E5C890",
+            "cursorColor": "#F2D5CF",
+            "cyan": "#81C8BE",
+            "foreground": "#C6D0F5",
+            "green": "#A6D189",
+            "name": "Catppuccin Frappe",
+            "purple": "#F4B8E4",
+            "red": "#E78284",
+            "selectionBackground": "#626880",
+            "white": "#B5BFE2",
+            "yellow": "#E5C890"
+        }
+    ],
+    "tabWidthMode": "titleLength",
+    "themes": [
+        {
+            "name": "Catppuccin Frappe",
+            "tab": {
+                "background": "#303446FF",
+                "iconStyle": "default",
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "tabRow": {
+                "background": "#292C3CFF",
+                "unfocusedBackground": "#232634FF"
+            },
+            "window": {
+                "applicationTheme": "dark",
+                "experimental.rainbowFrame": false,
+                "frame": null,
+                "unfocusedFrame": null,
+                "useMica": false
+            }
+        }
+    ],
+    "useAcrylicInTabRow": false
+}

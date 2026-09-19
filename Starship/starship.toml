@@ -63,7 +63,7 @@ truncate_to_repo = false
 [git_branch]
 style = 'bold fg:blue'
 symbol = ' '
-format = '[ ↕](bold blue) [$symbol$branch]($style)'
+format = '[ ⥮](bold blue) [$symbol$branch]($style)'
 
 [git_status]
 format = '( [\[$all_status$ahead_behind\]]($style))'
@@ -105,47 +105,47 @@ RedHatEnterprise = "󱄛"
 
 [nodejs]
 symbol = ""
-format = '[ ↕](bold green) [$symbol( $version)](bold green)'
+format = '[ ⥮](bold green) [$symbol( $version)](bold green)'
 
 [c]
 symbol = " "
 style = "bg:teal"
-format = '[ ↕](bold teal) [ $symbol( $version)](bold teal)'
+format = '[ ⥮](bold teal) [ $symbol( $version)](bold teal)'
 
 [rust]
 symbol = ""
 style = "bg:teal"
-format = '[ ↕](bold teal) [ $symbol( $version)](bold teal)'
+format = '[ ⥮](bold teal) [ $symbol( $version)](bold teal)'
 
 [golang]
 symbol = ""
 style = "bg:teal"
-format = '[ ↕](bold teal) [ $symbol( $version)](bold teal)'
+format = '[ ⥮](bold teal) [ $symbol( $version)](bold teal)'
 
 [php]
 symbol = ""
 style = "bg:teal"
-format = '[ ↕](bold teal) [ $symbol( $version)](bold teal)'
+format = '[ ⥮](bold teal) [ $symbol( $version)](bold teal)'
 
 [java]
 symbol = " "
 style = "bg:teal"
-format = '[ ↕](bold teal) [ $symbol( $version)](bold teal)'
+format = '[ ⥮](bold teal) [ $symbol( $version)](bold teal)'
 
 [kotlin]
 symbol = ""
 style = "bg:teal"
-format = '[ ↕](bold teal) [ $symbol( $version)](bold teal)'
+format = '[ ⥮](bold teal) [ $symbol( $version)](bold teal)'
 
 [haskell]
 symbol = ""
 style = "bg:teal"
-format = '[ ↕](bold teal) [ $symbol( $version)](bold teal)'
+format = '[ ⥮](bold teal) [ $symbol( $version)](bold teal)'
 
 [python]
 symbol = ""
 style = "bg:teal"
-format = '[ ↕](bold teal) [ $symbol( $version)](bold teal)'
+format = '[ ⥮](bold teal) [ $symbol( $version)](bold teal)'
 
 [docker_context]
 symbol = ' '
